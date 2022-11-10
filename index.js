@@ -17,8 +17,5 @@ client.aliases = new Discord.Collection();
 client.categories = fs.readdirSync("./commands/"); 
 client.cooldowns = new Discord.Collection(); 
 
-["command", "events"].forEach(handler => {
-    require(`./handlers/${handler}`)(client);
-});
-client.login(require("./botconfig/config.json").token);
+
 
