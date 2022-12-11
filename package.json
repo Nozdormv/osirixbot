@@ -1,7 +1,7 @@
 {
   "name": "Anthony Molaines",
   "version": "2.0.0",
-  "description": "Discord.js Command and Event Handler Template with example Command usages!",
+  "description": "OsirixBot discord bot.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
