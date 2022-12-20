@@ -1,20 +1,31 @@
 {
-  "name": "Anthony Molaines",
-  "version": "2.0.0",
+  "name": "anthony_molaines",
+  "version": "3.0.0",
   "description": "OsirixBot discord bot.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nozdormv#9523",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nozdormv/osirixbot"
+  },
+  "keywords": [
+    "Music",
+    "Bot",
+    "Discord",
+    "Discord-jsv13",
+    "v13",
+    "js",
+    "nodejs"
+  ],
+  "author": "Nozdormv",
+  "license": "MIT",
   "dependencies": {
-    "ascii-table": "0.0.9",
-    "discord.js": "^12.5.1"
-  },
-  "devDependencies": {
-    "ascii-table": "0.0.9",
-    "colors": "^1.4.0"
+    "@discordjs/builders": "^0.6.0",
+    "colors": "^1.4.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.1"
   }
 }

@@ -1,4 +1,4 @@
-module.exports = client => {
-    console.warn();
+//here the event starts
+module.exports = (client, error) => {
+  console.log(String(error).yellow.dim);
 }
-

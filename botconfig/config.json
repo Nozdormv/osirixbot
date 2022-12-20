@@ -1,5 +1,34 @@
 {
-  "token": "{token}",
-  "prefix": "?",
-  "defaultCommandCooldown" : 1
+  "token": "token",
+  "prefix": "!",
+  "slashprefix": "/",
+  "developer": "Nozdormv#9523",
+  "comunity": "OsirixPlayer",
+  "ruststatus": "```CLOSE```",
+  "minecraftstatus": "```ONLINE```",
+  "rustname": "End Westlands",
+  "minecraftname": "OsirixCraft",
+  "stream": "twitch.tv/osirixplayer",
+  "twitch": "https://twitch.tv/osirixplayer",
+  "youtube": "https://www.youtube.com/@osirixplayer3811",
+  "instagram": "https://instagram.com/osirixplayer",
+  "twitter": "https://twitter.com/osirixplayer",
+  "loadSlashsGlobal": false, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)",
+  "slashCommandsDirs": [
+        {
+                "Folder": "Info",
+                "CmdName": "info",
+                "CmdDescription": "Grant specific Information about something!"
+        },
+        {
+                "Folder": "Admin",
+                "CmdName": "admin",
+                "CmdDescription": "Administrate the Server!"
+        },
+        {
+                "Folder": "Commands",
+                "CmdName": "commands",
+                "CmdDescription": "General commands"
+        }
+   ]
 }
